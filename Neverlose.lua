@@ -143,7 +143,7 @@ function Library:Window(options)
 
     input.InputBegan:Connect(function(key, focused)
         if focused then return end
-        if key.KeyCode == Enum.KeyCode.RightShift then
+        if key.KeyCode == Enum.KeyCode.RightControl then
             ToggleWindow()
         end
     end)
